@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Mood Buttons */
+  .mood-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .mood-buttons button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mood-buttons button:hover {
+    background-color: #d0d0d0;
+  }
+  
+  /* Color Palette Display */
+  .palette-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .color-box {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .color-box:hover {
+    transform: scale(1.1);
+  }
+  /* Share Button Styles */
+.share-section {
+    margin-top: 2rem;
+  }
+  
+  #share-whatsapp {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #25D366; /* WhatsApp Green */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #share-whatsapp:hover {
+    background-color: #128C7E; /* Darker WhatsApp Green */
+  }
+  /* Active Mood Button */
+.mood-buttons button.active {
+    background-color: #25D366; /* WhatsApp Green */
+    color: white;
+  }

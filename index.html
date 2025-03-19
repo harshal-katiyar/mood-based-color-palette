@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mood-Based Color Palette Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Mood-Based Color Palette Generator</h1>
+    <p>Select your mood and get a color palette!</p>
+
+    <!-- Mood Selection Buttons -->
+    <div class="mood-buttons">
+      <button data-mood="happy">😊 Happy</button>
+      <button data-mood="sad">😢 Sad</button>
+      <button data-mood="calm">🧘 Calm</button>
+      <button data-mood="energetic">⚡ Energetic</button>
+      <button data-mood="romantic">❤️ Romantic</button>
+    </div>
+
+    <!-- Color Palette Display -->
+    <div class="palette-container">
+      <div class="color-box"></div>
+      <div class="color-box"></div>
+      <div class="color-box"></div>
+      <div class="color-box"></div>
+      <div class="color-box"></div>
+    </div>
+  </div>
+  <!-- Add this below the palette-container div -->
+<div class="share-section">
+  <button id="share-whatsapp">Share on WhatsApp</button>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
